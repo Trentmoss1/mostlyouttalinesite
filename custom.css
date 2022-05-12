@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+header {
+    place-content: center;
+}
+nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    padding-bottom: 1cm;
+}
+a:link {
+    color: rgb(0, 0, 0);
+}
+a:visited {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    color: green
+}
+a:active {
+    color:rgb(0, 0, 0);
+}
+h1 {
+    padding-top: 1cm;
+    padding-bottom: .2cm;
+    place-content: center;
+}
+h2 {
+    padding-top: .2cm;
+    padding-bottom: 1cm;
+}
+p {
+    padding-top: .2cm;
+    padding-bottom: .5cm;
+}
+img {
+    padding-bottom: 1cm;
+}
